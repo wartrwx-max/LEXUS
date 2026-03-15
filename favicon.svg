@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#1c1917"/>
+  <!-- Scales of justice -->
+  <!-- Center pole -->
+  <rect x="15.5" y="6" width="1" height="18" fill="#b45309"/>
+  <!-- Top beam -->
+  <rect x="7" y="9.5" width="18" height="1" fill="#d97706"/>
+  <!-- Center pivot circle -->
+  <circle cx="16" cy="9.5" r="1.5" fill="#d97706"/>
+  <!-- Left pan chain -->
+  <line x1="10" y1="9.5" x2="10" y2="16" stroke="#d97706" stroke-width="0.8"/>
+  <!-- Right pan chain -->
+  <line x1="22" y1="9.5" x2="22" y2="16" stroke="#d97706" stroke-width="0.8"/>
+  <!-- Left pan -->
+  <path d="M7 16 Q10 18 13 16" stroke="#d97706" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- Right pan -->
+  <path d="M19 16 Q22 18 25 16" stroke="#d97706" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- Base -->
+  <rect x="13" y="24" width="6" height="1" rx="0.5" fill="#d97706"/>
+  <rect x="12" y="25" width="8" height="1" rx="0.5" fill="#b45309"/>
+</svg>
