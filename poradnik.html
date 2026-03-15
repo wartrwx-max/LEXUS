@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poradnik poszkodowanego – Co zrobić po wypadku | Lexus Kancelaria Prawna Dębica</title>
+    <meta name="description" content="Poradnik: co zrobić po wypadku krok po kroku. Jak zabezpieczyć dowody, jakie dane zebrać. Pomoc po wypadku – Lexus Kancelaria Prawna Dębica.">
+    <meta name="keywords" content="co zrobić po wypadku, pomoc po wypadku Dębica, poradnik poszkodowanego, odszkodowania Dębica">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: { extend: {
+                colors: { cream:'#faf8f5', amber:{50:'#fffbeb',100:'#fef3c7',200:'#fde68a',400:'#fbbf24',500:'#f59e0b',600:'#d97706',700:'#b45309',800:'#92400e',900:'#78350f'} },
+                fontFamily: { sans:['Figtree','sans-serif'], serif:['Newsreader','serif'] }
+            }}
+        }
+    </script>
+    <style>
+        html{scroll-behavior:smooth}
+        .grain::after{content:'';position:absolute;inset:0;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");background-size:128px 128px;pointer-events:none;z-index:1}
+        .grain>*{position:relative;z-index:2}
+        .nav-link{position:relative}
+        .nav-link::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#b45309;transition:width .3s ease}
+        .nav-link:hover::after,.nav-link.active::after{width:100%}
+        .btn-amber{background:#b45309;color:#fff;transition:background .2s ease,transform .15s ease,box-shadow .2s ease}
+        .btn-amber:hover{background:#d97706;transform:scale(1.02);box-shadow:0 8px 24px rgba(180,83,9,.25)}
+        .section-tag{font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#b45309}
+        .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+        .reveal.visible{opacity:1;transform:translateY(0)}
+        .step-line{position:relative}
+        .step-line::before{content:'';position:absolute;left:19px;top:48px;bottom:-8px;width:2px;background:#e7e5e4}
+        .step-line:last-child::before{display:none}
+    </style>
+</head>
+<body class="font-sans bg-cream text-stone-800 antialiased">
+
+<div class="bg-stone-900 text-stone-400 text-xs py-2.5 hidden md:block">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+        <div class="flex items-center gap-6"><a href="mailto:lexus9@o2.pl" class="hover:text-white transition-colors">lexus9@o2.pl</a><span class="text-stone-700">|</span><span>ul. Rzeszowska 76 D, Dębica</span></div>
+        <span>Pon – Pt, 9:00 – 16:00</span>
+    </div>
+</div>
+
+<header class="bg-cream/95 backdrop-blur-md sticky top-0 z-50 border-b border-stone-200/60">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="index.html" class="group"><div class="font-serif text-2xl font-bold text-stone-900 tracking-tight leading-none">Lexus</div><div class="text-[9px] font-semibold text-amber-700 tracking-[0.22em] uppercase mt-0.5">Kancelaria Prawna</div></a>
+        <div class="hidden lg:flex items-center gap-8">
+            <a href="index.html"         class="nav-link text-stone-500 hover:text-stone-900 font-medium text-sm transition-colors">Strona główna</a>
+            <a href="odszkodowania.html" class="nav-link text-stone-500 hover:text-stone-900 font-medium text-sm transition-colors">Odszkodowania</a>
+            <a href="windykacja.html"    class="nav-link text-stone-500 hover:text-stone-900 font-medium text-sm transition-colors">Windykacja</a>
+            <a href="poradnik.html"      class="nav-link active text-stone-900 font-medium text-sm">Poradnik</a>
+            <a href="kontakt.html"       class="nav-link text-stone-500 hover:text-stone-900 font-medium text-sm transition-colors">Kontakt</a>
+            <a href="tel:503024362" class="btn-amber flex items-center gap-2 px-5 py-2.5 rounded-md text-sm font-semibold"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>503 024 362</a>
+        </div>
+        <button id="menuBtn" class="lg:hidden p-2 text-stone-700"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    </nav>
+    <div id="mobileMenu" class="lg:hidden hidden border-t border-stone-200 bg-cream">
+        <div class="px-6 py-4 flex flex-col gap-1">
+            <a href="index.html" class="text-stone-500 py-3 text-sm border-b border-stone-100">Strona główna</a>
+            <a href="odszkodowania.html" class="text-stone-500 py-3 text-sm border-b border-stone-100">Odszkodowania</a>
+            <a href="windykacja.html" class="text-stone-500 py-3 text-sm border-b border-stone-100">Windykacja</a>
+            <a href="poradnik.html" class="text-stone-900 font-semibold py-3 text-sm border-b border-stone-100">Poradnik</a>
+            <a href="kontakt.html" class="text-stone-500 py-3 text-sm border-b border-stone-100">Kontakt</a>
+            <a href="tel:503024362" class="btn-amber text-center py-3.5 rounded-md text-sm font-semibold mt-3">Zadzwoń: 503 024 362</a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<!-- Hero -->
+<section class="relative bg-stone-950 grain py-20 md:py-28 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6">
+        <nav class="flex items-center gap-2 text-xs text-stone-500 mb-8 reveal"><a href="index.html" class="hover:text-white transition-colors">Strona główna</a><span class="text-stone-700">/</span><span class="text-amber-600">Poradnik poszkodowanego</span></nav>
+        <p class="section-tag text-amber-500 mb-3 reveal" style="transition-delay:.1s">Instrukcja krok po kroku</p>
+        <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-stone-100 font-bold mb-5 reveal" style="transition-delay:.2s">Poradnik poszkodowanego</h1>
+        <p class="text-stone-400 text-lg max-w-2xl reveal" style="transition-delay:.3s">Co zrobić po wypadku? Kompletna instrukcja, która pomoże Ci zabezpieczyć prawa i uzyskać pełne odszkodowanie.</p>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-700 via-amber-500 to-transparent"></div>
+</section>
+
+<!-- Steps -->
+<section class="py-20 bg-cream">
+    <div class="max-w-3xl mx-auto px-6">
+        <div class="mb-14 reveal">
+            <p class="section-tag mb-3">Krok po kroku</p>
+            <h2 class="font-serif text-3xl md:text-4xl text-stone-900 font-bold">Co zrobić po wypadku?</h2>
+        </div>
+
+        <div class="space-y-6">
+            <div class="step-line relative flex gap-5 reveal">
+                <div class="flex-shrink-0 w-10 h-10 bg-stone-900 rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
+                <div class="bg-white rounded-xl p-6 flex-1 border border-stone-200 mb-4">
+                    <h3 class="font-semibold text-stone-900 mb-2">Zadbaj o bezpieczeństwo</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">Włącz światła awaryjne, postaw trójkąt ostrzegawczy. Jeśli są osoby ranne — <span class="text-stone-800 font-medium">natychmiast dzwoń na 112</span>.</p>
+                </div>
+            </div>
+            <div class="step-line relative flex gap-5 reveal" style="transition-delay:.05s">
+                <div class="flex-shrink-0 w-10 h-10 bg-stone-900 rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
+                <div class="bg-white rounded-xl p-6 flex-1 border border-stone-200 mb-4">
+                    <h3 class="font-semibold text-stone-900 mb-2">Zbierz dane sprawcy</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed mb-3">Zapisz od sprawcy:</p>
+                    <ul class="space-y-1.5 text-sm text-stone-600">
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Imię i nazwisko</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Numer rejestracyjny pojazdu</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Numer polisy OC i nazwa ubezpieczyciela</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Dane kontaktowe (adres, telefon)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="step-line relative flex gap-5 reveal" style="transition-delay:.1s">
+                <div class="flex-shrink-0 w-10 h-10 bg-stone-900 rounded-full flex items-center justify-center text-white font-bold text-sm">3</div>
+                <div class="bg-white rounded-xl p-6 flex-1 border border-stone-200 mb-4">
+                    <h3 class="font-semibold text-stone-900 mb-2">Udokumentuj zdarzenie</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">Zrób <span class="text-stone-800 font-medium">zdjęcia miejsca zdarzenia</span>, uszkodzeń, obrażeń. Jeśli są świadkowie — zapisz ich dane kontaktowe.</p>
+                </div>
+            </div>
+            <div class="step-line relative flex gap-5 reveal" style="transition-delay:.15s">
+                <div class="flex-shrink-0 w-10 h-10 bg-stone-900 rounded-full flex items-center justify-center text-white font-bold text-sm">4</div>
+                <div class="bg-white rounded-xl p-6 flex-1 border border-stone-200 mb-4 border-l-4 border-l-amber-600">
+                    <h3 class="font-semibold text-stone-900 mb-2">Policja — kiedy wzywać?</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed mb-2">Jeśli w wypadku <span class="text-stone-800 font-medium">nie ma osób rannych</span>, nie ma obowiązku wzywania policji. Wystarczy wspólne oświadczenie sprawcy kolizji.</p>
+                    <p class="text-stone-500 text-sm leading-relaxed">Koniecznie wezwij policję, gdy sprawca nie przyznaje się do winy, są ranni lub istnieje podejrzenie jazdy pod wpływem alkoholu.</p>
+                </div>
+            </div>
+            <div class="step-line relative flex gap-5 reveal" style="transition-delay:.2s">
+                <div class="flex-shrink-0 w-10 h-10 bg-stone-900 rounded-full flex items-center justify-center text-white font-bold text-sm">5</div>
+                <div class="bg-white rounded-xl p-6 flex-1 border border-stone-200 mb-4">
+                    <h3 class="font-semibold text-stone-900 mb-2">Wizyta u lekarza</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">Nawet jeśli czujesz się dobrze, <span class="text-stone-800 font-medium">udaj się do lekarza jak najszybciej</span>. Niektóre urazy ujawniają się dopiero po kilku dniach. Dokumentacja medyczna jest niezbędna.</p>
+                </div>
+            </div>
+            <div class="relative flex gap-5 reveal" style="transition-delay:.25s">
+                <div class="flex-shrink-0 w-10 h-10 bg-amber-700 rounded-full flex items-center justify-center text-white font-bold text-sm">6</div>
+                <div class="bg-stone-900 rounded-xl p-6 flex-1 grain overflow-hidden">
+                    <h3 class="font-semibold text-white mb-2">Skontaktuj się z nami</h3>
+                    <p class="text-stone-400 text-sm leading-relaxed mb-4">Bezpłatnie przeanalizujemy Twoją sprawę i zajmiemy się wszystkimi formalnościami.</p>
+                    <a href="tel:503024362" class="btn-amber inline-flex items-center gap-2 px-5 py-2.5 rounded-md text-sm font-semibold">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                        503 024 362
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Faktury warning -->
+<section class="py-16 bg-stone-100">
+    <div class="max-w-3xl mx-auto px-6 reveal">
+        <div class="bg-white rounded-xl border border-stone-200 overflow-hidden">
+            <div class="bg-amber-700 px-8 py-5 flex items-center gap-3">
+                <svg class="w-5 h-5 text-amber-100 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+                <h2 class="text-white font-semibold">Bardzo ważne — zbieraj wszystkie faktury i paragony</h2>
+            </div>
+            <div class="p-8">
+                <p class="text-stone-600 text-sm leading-relaxed mb-6">Zachowuj <span class="text-stone-900 font-semibold">każdy rachunek, fakturę i paragon</span> związany z wypadkiem. Każdy dokument zwiększa wartość Twojego odszkodowania.</p>
+                <div class="grid md:grid-cols-2 gap-3">
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Wizyty lekarskie i badania diagnostyczne</div>
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Leki i środki opatrunkowe</div>
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Zabiegi rehabilitacyjne</div>
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Dojazdy do placówek medycznych</div>
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Sprzęt ortopedyczny i pomocniczy</div>
+                    <div class="flex items-center gap-3 bg-cream rounded-lg p-3 text-sm text-stone-600 border border-stone-200"><div class="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0"></div>Opieka i pomoc osób trzecich</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="relative bg-stone-950 grain py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="font-serif text-2xl md:text-3xl text-stone-100 font-bold mb-4">Potrzebujesz pomocy po wypadku?</h2>
+        <p class="text-stone-400 mb-8">Bezpłatna konsultacja — ocenimy Twoją sprawę i pomożemy uzyskać odszkodowanie.</p>
+        <a href="tel:503024362" class="btn-amber inline-flex items-center gap-2.5 px-8 py-4 rounded-md text-base font-semibold">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+            Bezpłatna konsultacja: 503 024 362
+        </a>
+    </div>
+</section>
+</main>
+
+<footer class="bg-stone-950 pt-14 pb-8">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-10 mb-10">
+            <div><div class="mb-4"><div class="font-serif text-xl font-bold text-stone-100 tracking-tight leading-none">Lexus</div><div class="text-[9px] font-semibold text-amber-600 tracking-[0.22em] uppercase mt-0.5">Kancelaria Prawna</div></div><p class="text-stone-500 text-sm leading-relaxed mb-4">Profesjonalna pomoc prawna w zakresie odszkodowań i windykacji należności od ponad 15 lat.</p><a href="tel:503024362" class="text-stone-200 font-bold text-lg hover:text-amber-500 transition-colors">503 024 362</a></div>
+            <div><h4 class="text-stone-300 font-semibold text-xs uppercase tracking-wider mb-4">Usługi</h4><ul class="space-y-2.5"><li><a href="odszkodowania.html" class="text-stone-500 hover:text-white text-sm transition-colors">Odszkodowania</a></li><li><a href="windykacja.html" class="text-stone-500 hover:text-white text-sm transition-colors">Windykacja należności</a></li><li><a href="windykacja.html#wywiad" class="text-stone-500 hover:text-white text-sm transition-colors">Wywiad gospodarczy</a></li><li><a href="poradnik.html" class="text-stone-500 hover:text-white text-sm transition-colors">Poradnik poszkodowanego</a></li></ul></div>
+            <div><h4 class="text-stone-300 font-semibold text-xs uppercase tracking-wider mb-4">Kontakt</h4><ul class="space-y-2.5 text-sm text-stone-500"><li>ul. Rzeszowska 76 D<br>39-200 Dębica</li><li><a href="tel:503024362" class="hover:text-white transition-colors">Tel: 503 024 362</a></li><li><a href="mailto:lexus9@o2.pl" class="hover:text-white transition-colors">lexus9@o2.pl</a></li><li class="pt-1"><span class="text-stone-400">Pon – Pt:</span> <span class="text-stone-300 font-medium">9:00 – 16:00</span></li></ul></div>
+        </div>
+        <div class="border-t border-stone-800 pt-6 text-center text-stone-600 text-xs">&copy; 2024 Lexus Kancelaria Prawna – Dębica. Wszelkie prawa zastrzeżone.</div>
+    </div>
+</footer>
+<a href="tel:503024362" class="md:hidden fixed bottom-4 left-4 right-4 btn-amber text-center py-4 rounded-lg z-50 shadow-xl flex items-center justify-center gap-2 text-base font-semibold"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>Zadzwoń teraz</a>
+<script>
+document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('mobileMenu').classList.toggle('hidden'));
+const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('visible');observer.unobserve(el.target)}})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
