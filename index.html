@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windykacja i Odszkodowania Dębica | Skuteczna Pomoc - Lexus</title>
-    <meta name="description" content="Potrzebujesz pomocy w odzyskaniu długu lub odszkodowania w Dębicy? Lexus oferuje profesjonalną windykację i bezpłatną analizę spraw. Sprawdź nas!">
-    <meta name="keywords" content="odszkodowania Dębica, windykacja należności Dębica, pomoc po wypadku, kancelaria prawna Dębica">
+    <title>Lexus – Windykacja Należności i Dochodzenie Roszczeń</title>
+    <meta name="description" content="Wspieramy firmy i osoby prywatne w odzyskiwaniu kapitału. Ponad 15 lat doświadczenia w windykacji należności i likwidacji szkód. Bezpłatna analiza prawna.">
+    <meta name="keywords" content="windykacja należności, dochodzenie roszczeń, zarządzanie wierzytelnościami, likwidacja szkód, kancelaria prawna, odszkodowania">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Lexus Kancelaria Prawna">
     <meta property="og:locale" content="pl_PL">
-    <meta property="og:title" content="Windykacja i Odszkodowania Dębica | Skuteczna Pomoc - Lexus">
-    <meta property="og:description" content="Potrzebujesz pomocy w odzyskaniu długu lub odszkodowania w Dębicy? Lexus oferuje profesjonalną windykację i bezpłatną analizę spraw. Sprawdź nas!">
+    <meta property="og:title" content="Lexus – Windykacja Należności i Dochodzenie Roszczeń">
+    <meta property="og:description" content="Wspieramy firmy i osoby prywatne w odzyskiwaniu kapitału. Ponad 15 lat doświadczenia w windykacji należności i likwidacji szkód. Bezpłatna analiza prawna.">
     <meta property="og:url" content="https://lexus-debica.pl/">
     <meta property="og:image" content="https://lexus-debica.pl/favicon.svg">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -114,40 +114,80 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Lexus Dębica - Windykacja i Odszkodowania",
-      "alternateName": "Lexus Kancelaria Prawna Dębica",
-      "description": "Kancelaria prawna specjalizująca się w odszkodowaniach powypadkowych i windykacji należności na Podkarpaciu.",
-      "url": "https://lexus-debica.pl",
-      "telephone": "+48503024362",
-      "email": "lexus9@o2.pl",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "ul. Rzeszowska 76 D",
-        "addressLocality": "Dębica",
-        "postalCode": "39-200",
-        "addressRegion": "podkarpackie",
-        "addressCountry": "PL"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 50.0503,
-        "longitude": 21.4136
-      },
-      "areaServed": [
-        {"@type": "City", "name": "Dębica"},
-        {"@type": "City", "name": "Rzeszów"},
-        {"@type": "AdministrativeArea", "name": "województwo podkarpackie"}
-      ],
-      "serviceType": ["windykacja należności", "odszkodowania komunikacyjne", "pomoc prawna"],
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "09:00",
-        "closes": "16:00"
-      },
-      "priceRange": "Prowizja od sukcesu",
-      "sameAs": ["https://lexus-debica.pl"]
+      "@graph": [
+        {
+          "@type": ["LegalService", "ProfessionalService"],
+          "@id": "https://lexus-debica.pl/#service",
+          "name": "Lexus Kancelaria Prawna",
+          "alternateName": "Lexus – Windykacja i Dochodzenie Roszczeń",
+          "description": "Kancelaria prawna świadcząca profesjonalne usługi dochodzenia roszczeń, windykacji należności, zarządzania wierzytelnościami i likwidacji szkód powypadkowych.",
+          "url": "https://lexus-debica.pl",
+          "telephone": "+48503024362",
+          "email": "lexus9@o2.pl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Rzeszowska 76 D",
+            "addressLocality": "Dębica",
+            "postalCode": "39-200",
+            "addressRegion": "podkarpackie",
+            "addressCountry": "PL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.0503,
+            "longitude": 21.4136
+          },
+          "areaServed": {"@type": "Country", "name": "Poland"},
+          "serviceType": [
+            "windykacja należności",
+            "zarządzanie wierzytelnościami",
+            "dochodzenie roszczeń",
+            "likwidacja szkód",
+            "odszkodowania komunikacyjne",
+            "analiza prawna"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Usługi kancelarii",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Windykacja należności i zarządzanie wierzytelnościami", "url": "https://lexus-debica.pl/windykacja.html"}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Dochodzenie odszkodowań i likwidacja szkód", "url": "https://lexus-debica.pl/odszkodowania.html"}}
+            ]
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "09:00",
+            "closes": "16:00"
+          },
+          "priceRange": "Prowizja od sukcesu"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://lexus-debica.pl/#organization",
+          "name": "Lexus Kancelaria Prawna",
+          "url": "https://lexus-debica.pl",
+          "telephone": "+48503024362",
+          "email": "lexus9@o2.pl",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Rzeszowska 76 D",
+            "addressLocality": "Dębica",
+            "postalCode": "39-200",
+            "addressRegion": "podkarpackie",
+            "addressCountry": "PL"
+          },
+          "knowsAbout": [
+            "prawo cywilne",
+            "windykacja należności",
+            "zarządzanie wierzytelnościami",
+            "dochodzenie roszczeń odszkodowawczych",
+            "likwidacja szkód",
+            "analiza prawna"
+          ],
+          "sameAs": ["https://lexus-debica.pl"]
+        }
+      ]
     }
     </script>
 </head>
@@ -212,11 +252,11 @@
         <div class="max-w-3xl">
             <p class="section-tag text-amber-400 mb-5">Bezpłatna konsultacja · Prowizja od sukcesu</p>
             <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl text-stone-100 leading-[1.08] font-700 mb-6">
-                Skuteczna Windykacja<br>
-                <span class="text-amber-500">i Odszkodowania w Dębicy</span>
+                Windykacja Należności<br>
+                <span class="text-amber-500">i Dochodzenie Roszczeń</span>
             </h1>
             <p class="text-stone-400 text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
-                Specjalizujemy się w odszkodowaniach i windykacji. <span class="text-stone-200 font-medium">Nie pobieramy żadnych opłat z góry</span> — płacisz tylko za wynik.
+                Specjalizujemy się w dochodzeniu roszczeń, windykacji należności i likwidacji szkód. <span class="text-stone-200 font-medium">Nie pobieramy żadnych opłat z góry</span> — płacisz tylko za wynik.
             </p>
 
             <!-- Big phone number -->
@@ -308,7 +348,7 @@
                         </div>
                     </div>
                     <span class="inline-flex items-center gap-2 text-amber-500 text-sm font-semibold group-hover:gap-3 transition-all">
-                        Dowiedz się więcej
+                        Dowiedz się więcej o likwidacji szkód
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </span>
                 </div>
@@ -321,9 +361,9 @@
                         <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
                     </div>
                     <h3 class="font-semibold text-stone-900 text-lg mb-2 group-hover:text-amber-700 transition-colors">Windykacja należności</h3>
-                    <p class="text-stone-500 text-sm leading-relaxed mb-3">Skuteczne odzyskiwanie długów. Prowizja 5–15% płatna dopiero po odzyskaniu.</p>
+                    <p class="text-stone-500 text-sm leading-relaxed mb-3">Skuteczne odzyskiwanie długów i zarządzanie wierzytelnościami. Prowizja 5–15% płatna dopiero po odzyskaniu.</p>
                     <span class="text-amber-700 text-sm font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Szczegóły <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        Proces windykacji – szczegóły <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </span>
                 </a>
                 <a href="windykacja.html#wywiad" class="group bg-white rounded-xl p-7 card-hover border border-stone-200 flex-1 reveal" style="transition-delay:.2s">
@@ -331,9 +371,9 @@
                         <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </div>
                     <h3 class="font-semibold text-stone-900 text-lg mb-2 group-hover:text-amber-700 transition-colors">Wywiad gospodarczy</h3>
-                    <p class="text-stone-500 text-sm leading-relaxed mb-3">Weryfikacja kontrahenta, sprawdzanie majątku — ruchomości i nieruchomości.</p>
+                    <p class="text-stone-500 text-sm leading-relaxed mb-3">Analiza prawna kontrahenta, weryfikacja majątku — ruchomości i nieruchomości.</p>
                     <span class="text-amber-700 text-sm font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Szczegóły <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        Wywiad gospodarczy – szczegóły <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </span>
                 </a>
             </div>
@@ -348,7 +388,7 @@
             <div class="reveal">
                 <p class="section-tag mb-3">Dlaczego my</p>
                 <h2 class="font-serif text-3xl md:text-4xl text-stone-900 font-bold mb-6">Ponad 15 lat<br>po Twojej stronie</h2>
-                <p class="text-stone-500 leading-relaxed mb-8">Nie jesteśmy korporacją. Jesteśmy lokalną kancelarią, która zna realia Podkarpacia. Każda sprawa jest dla nas osobista — bo za każdą stoi konkretny człowiek, który potrzebuje pomocy.</p>
+                <p class="text-stone-500 leading-relaxed mb-8">Nie jesteśmy korporacją. Jesteśmy kancelarią z ponad 15-letnim doświadczeniem w dochodzeniu roszczeń i zarządzaniu wierzytelnościami. Każda analiza prawna i każde postępowanie jest dla nas osobiste — bo za każdą sprawą stoi człowiek, który potrzebuje pomocy.</p>
                 <div class="space-y-4">
                     <div class="flex items-center gap-4">
                         <div class="w-2 h-2 bg-amber-600 rounded-full flex-shrink-0"></div>
