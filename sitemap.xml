@@ -1,50 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://lexus-debica.pl/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lexus-debica.pl/"/>
-    <image:image>
-      <image:loc>https://lexus-debica.pl/images/hero-library.webp</image:loc>
-      <image:caption>Biblioteka prawnicza Kancelarii Lexus w Dębicy</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://lexus-debica.pl/odszkodowania.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lexus-debica.pl/odszkodowania.html"/>
-    <image:image>
-      <image:loc>https://lexus-debica.pl/images/hero-documents.webp</image:loc>
-      <image:caption>Dokumentacja prawna — dochodzenie odszkodowań w Kancelarii Lexus Dębica</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://lexus-debica.pl/windykacja.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lexus-debica.pl/windykacja.html"/>
-    <image:image>
-      <image:loc>https://lexus-debica.pl/images/hero-handshake.webp</image:loc>
-      <image:caption>Windykacja należności i zarządzanie wierzytelnościami — Kancelaria Lexus Dębica</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://lexus-debica.pl/poradnik.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lexus-debica.pl/poradnik.html"/>
-    <image:image>
-      <image:loc>https://lexus-debica.pl/images/hero-road.webp</image:loc>
-      <image:caption>Poradnik poszkodowanego po wypadku komunikacyjnym</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://lexus-debica.pl/kontakt.html</loc>
-    <lastmod>2026-05-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="pl-PL" href="https://lexus-debica.pl/kontakt.html"/>
-    <image:image>
-      <image:loc>https://lexus-debica.pl/images/hero-office.webp</image:loc>
-      <image:caption>Biuro Kancelarii Lexus przy ul. Rzeszowskiej 76 D w Dębicy</image:caption>
-    </image:image>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lexus-debica.pl/</loc><lastmod>2026-04-07</lastmod></url>
+  <url><loc>https://lexus-debica.pl/odszkodowania.html</loc><lastmod>2026-04-07</lastmod></url>
+  <url><loc>https://lexus-debica.pl/windykacja.html</loc><lastmod>2026-04-07</lastmod></url>
+  <url><loc>https://lexus-debica.pl/poradnik.html</loc><lastmod>2026-04-07</lastmod></url>
+  <url><loc>https://lexus-debica.pl/kontakt.html</loc><lastmod>2026-04-07</lastmod></url>
 </urlset>
